@@ -1,0 +1,33 @@
+@import "./header.css";
+@import "./hero.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    color: rgb(252, 252, 252);
+    background-color: rgb(14, 14, 14);
+}
+
+main{
+    min-height: calc(100vh - 80px);
+    padding-inline: 64px;
+    display: grid;
+    gap: 64px;
+    margin: 64px 0;
+}
+
+/* styler Alle seksjoner på siden */
+
+section{
+    border: 2px solid black;
+    background-color: rgba(227, 225, 252, 0.514);
+}
+
+section:last-of-type {
+margin-bottom: 64px;
+}
